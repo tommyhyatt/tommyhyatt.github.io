@@ -15,7 +15,7 @@ body {
   -webkit-text-size-adjust: none;
   font: 20px 'Arvo', serif;
   color:#222;
-  line-height:30px;
+  line-height:0px;
 }
 
 #deskImageDiv {
@@ -36,6 +36,20 @@ body {
   -webkit-transition: opacity 500ms ease-in;
   -moz-transition: opacity 500ms ease-in;
   transition: opacity 500ms ease-in;
+}
+
+#screen {
+  position:absolute;
+  z-index:2;
+  width: 20.5%;
+  height: 20%;
+  left: 41.3%;
+  top: 7.4%;
+  opacity:0.9;
+}
+#screenImage {
+  width:100%;
+  height:100%;
 }
 
 .popUpTrigger {
@@ -65,7 +79,25 @@ body {
   transition: opacity 500ms ease-in;
   pointer-events: none;
 }
-.modalClose {
+
+.modal0 {
+  position:absolute;
+  width:100%;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: 20;
+  opacity: 1;
+  background:url(images/deskImageBlur.jpg);
+  background-size:cover;
+  -webkit-transition: opacity 500ms ease-in;
+  -moz-transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in;
+  pointer-events: none;
+}
+
+.modalClose, .modalClose0 {
   position:absolute;
   top:0;
   right:0;
@@ -75,9 +107,14 @@ body {
   background: rgba(255,255,255,0);
   cursor: default;
 }
-.modalOuter {
+
+.modalClose0 {
+  z-index:24;
+  
+}
+.modalOuter, .modalOuter0 {
   position: fixed;
-  height: 80vh;
+  min-height:50vh;
   width: 80vw;
   max-width:800px;
   top: 50%;
@@ -88,19 +125,29 @@ body {
   border-radius:30px;
 }
 
+
+
 .modalInner {
   padding:15%;
   border: 0px black;
   z-index:16;
   text-align:left;
+  line-height:30px;
 }
+
+
 
 .modal:target {
   opacity: 1;
   pointer-events: auto;
 }
 
-.close {
+.modal0:target {
+  display:none;
+  pointer-events: auto;
+}
+
+.close, .close0 {
   font-family:sans-serif;
   font-size:25px;
   background: #666;
