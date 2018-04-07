@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  min-height: 501px;
   min-width:800px;
   width:100%;
   min-width:100%;
@@ -156,10 +155,25 @@ body {
   background: #00d9ff;
 }
 
+#screenCentre {
+  position:absolute;
+  z-index:0;
+  width: 100vw;
+  left:50%;
+  transform:translateX(-50%);
+  height:0;
+  opacity:0;
+}
+#screenImage {
+  width:100%;
+  height:100%;
+}
+
+
 #turntable {
   width: 12%;
   height: 5%;
-  left: 22%;
-  top: 62%;
+  left: 21%;
+  top: 64%;
 }
 
