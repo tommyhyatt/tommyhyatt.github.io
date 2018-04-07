@@ -8,7 +8,7 @@ body {
   min-width:800px;
   width:100%;
   min-width:100%;
-  max-width:calc(100vh * 1.596);
+  max-width:calc(100vh * 1.713);
   background: #fff;
   position: relative;
   margin: 0 auto;
@@ -21,8 +21,8 @@ body {
 
 #deskImageDiv {
   width:100%;
-  min-height:100vh;
-	min-width:159.6vh;
+  min-height:100%;
+	min-width:171.3vh;
   position: relative;
   display: block;
   margin: 0px auto;
