@@ -1,3 +1,1 @@
-var x = document.getElementById('screenCentre');
-x.setAttribute("tabindex", 1);
-x.focus()
+window.scrollTo((document.body.offsetWidth )/2,0)
