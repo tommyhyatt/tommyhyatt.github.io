@@ -4,11 +4,7 @@ html {
 }
 
 body {
-  min-width:800px;
-  width:100%;
-  min-width:100%;
-  max-width:calc(100vh * 1.713);
-  background: #fff;
+  background: #8c94a7;
   position: relative;
   margin: 0 auto;
   display: block;
@@ -19,13 +15,12 @@ body {
 }
 
 #deskImageDiv {
-  width:100%;
-  min-height:100%;
-	min-width:171.3vh;
+  width: 100%;
+  min-height: 100%;
+	min-width: 171.3vh;
   position: relative;
   display: block;
   margin: 0px auto;
-  background: #fff;
   text-align:center;
   line-height:0px;
 }
@@ -34,6 +29,7 @@ body {
   width:100%;
   z-index:-1;
   opacity:1;
+  vertical-align: top;
   -webkit-transition: opacity 250ms ease-in;
   -moz-transition: opacity 250ms ease-in;
   transition: opacity 250ms ease-in;
@@ -141,7 +137,7 @@ body {
 }
 
 .close:hover {
-  background: #ffffff;
+  background: #aaa;
 }
 
 #audio {
@@ -166,6 +162,16 @@ body {
 
   opacity:0.8;
 
+}
+
+@media (pointer:coarse) {
+  
+  #audio:hover {
+    
+    opacity:0.3;
+    
+  }
+  
 }
 
 #pianoOverlay {
@@ -246,4 +252,103 @@ body {
   left: 21%;
   top: 64%;
 }
+
+#vinyl {
+  width: 19%;
+  height: 12%;
+  left: 17%;
+  top: 86%;
+}
+
+#guitar {
+  width: 9%;
+  height: 40%;
+  left: 25%;
+  top: 12%;
+}
+
+#lynx {
+  width: 2.3%;
+  height: 5.6%;
+  left: 35.5%;
+  top: 15%;
+}
+
+#cat {
+  width: 2.3%;
+  height: 6.7%;
+  left: 35.5%;
+  top: 25%;
+}
+
+#lizzy {
+  width: 2.7%;
+  height: 6%;
+  left: 35.5%;
+  top: 48.8%;
+}
+
+#birds {
+  width: 3%;
+  height: 5%;
+  left: 49%;
+  top: 34%;
+}
+
+#tickets {
+  width: 3.4%;
+  height: 8%;
+  left: 63%;
+  top: 46%;
+}
+
+#cuddlyLynx {
+  width: 3%;
+  height: 8%;
+  left: 78%;
+  top: 11%;
+}
+
+#physics {
+  width: 10%;
+  height: 12.5%;
+  left: 66%;
+  top: 15%;
+}
+
+#pentax {
+  width: 5%;
+  height: 7%;
+  left: 78.5%;
+  top: 38%;
+}
+
+#autocord {
+  width: 5%;
+  height: 7%;
+  left: 65.5%;
+  top: 37.5%;
+}
+
+#cactus {
+  width: 10%;
+  height: 8%;
+  left: 75%;
+  top: 61.5%;
+}
+
+#scanner {
+  width: 8%;
+  height: 8%;
+  left: 67%;
+  top: 80%;
+}
+
+#amp {
+  width: 8%;
+  height: 8%;
+  left: 80%;
+  top: 90%;
+}
+
 
