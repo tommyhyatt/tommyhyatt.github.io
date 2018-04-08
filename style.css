@@ -173,6 +173,14 @@ body {
   transition: opacity 500ms ease-in;
 }
 
+@media (pointer:coarse) {
+  
+  #pianoOverlay {
+    opacity:1;
+  }
+  
+}
+
 #pianoOverlay:hover {
   
   opacity:1;
