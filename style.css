@@ -234,6 +234,27 @@ body {
   box-shadow: 0 0 15px 15px rgba(255,255,255,0.0);
 }
 
+#screensaverContainer {
+  background:#000;
+  position:absolute;
+  width: 13.3%;
+  height: 13.5%;
+  left: 44.05%;
+  top: 50.5%;
+  z-index:3;
+  display:none;
+}
+
+#screensaver {
+  width:100%;
+  height:100%;
+  z-index:4;
+  opacity:0.8;
+  background:url(images/afterDark.gif) center center no-repeat;
+  background-size:contain;
+  display:block;
+}
+
 #screen:hover {
     box-shadow: 0 0 15px 15px rgba(255,255,255,0.1);
     opacity:1;
