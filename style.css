@@ -168,9 +168,9 @@ body {
   opacity:0;
   background: url('images/pianoLight.jpg') center center no-repeat;
   background-size:cover;
+  box-shadow: 0 0 15px 15px rgba(255,255,255,0.1);
    -webkit-transition: opacity 500ms ease-in;
   -moz-transition: opacity 500ms ease-in;
-  transition: opacity 500ms ease-in;
 }
 
 @media (pointer:coarse) {
@@ -178,6 +178,7 @@ body {
   #pianoOverlay {
     opacity:1;
     background: url('images/piano.jpg') center center no-repeat;
+    
   }
   
 }
@@ -186,11 +187,6 @@ body {
   
   opacity:0.9;
   
-}
-
-#pianoOverlay .popUpTrigger:hover{
-  background-color: rgba(255,255,255,1);
-  box-shadow: 0 0 15px 15px rgba(255,255,255,0.1);
 }
 
 #screen {
