@@ -178,6 +178,7 @@ body {
   #pianoOverlay {
     opacity:1;
     background: url('images/piano.jpg') center center no-repeat;
+    background-size:cover;
   }
   
 }
