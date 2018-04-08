@@ -140,28 +140,38 @@ body {
   background: #aaa;
 }
 
-#audio {
-  width:32px;
-  height:32px;
-  overflow:hidden;
+.links {
   position:fixed;
-  top:5px;
-  left:5px;
+  width:45px;
+  padding-bottom:45px;
   opacity:0.3;
-  border-radius:30px;
-  font-size:16px;
-  line-height: 35px;
-  background:#fff;
+  background-size:contain!important;
   cursor: pointer;
   -webkit-transition: opacity 250ms ease-in;
   -moz-transition: opacity 250ms ease-in;
   transition: opacity 250ms ease-in;
 }
 
-#audio:hover {
-
+.links:hover {
   opacity:0.8;
+}
 
+#audio {
+  top:5px;
+  left:5px;
+  background:url('images/ambience.png') center center no-repeat;
+}
+
+#codeCampLink {
+  top:5px;
+  right:45px;
+  background:url('images/codeCamp.png') center center no-repeat;
+}
+
+#codewarsLink {
+  top:5px;
+  right:5px;
+  background:url('images/codewars.png') center center no-repeat;
 }
 
 @media (pointer:coarse) {
