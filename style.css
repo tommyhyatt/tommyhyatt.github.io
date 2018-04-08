@@ -141,7 +141,7 @@ body {
 }
 
 .close:hover {
-  background: #00d9ff;
+  background: #ffffff;
 }
 
 #screenCentre {
@@ -178,7 +178,6 @@ body {
   #pianoOverlay {
     opacity:1;
     background: url('images/piano.jpg') center center no-repeat;
-    background-size:contain;
   }
   
 }
