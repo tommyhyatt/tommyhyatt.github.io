@@ -198,8 +198,18 @@ body {
   transition:0s 180s;
   background:url(images/screen.gif) center center no-repeat;
   background-size:contain;
-  opacity:0.9;
+  opacity:0.8;
   cursor:pointer;
+   -webkit-transition: opacity 500ms ease-in,background-color 500ms ease-in,box-shadow 500ms ease-in;
+  -moz-transition: opacity 500ms ease-in,background-color 500ms ease-in,box-shadow 500ms ease-in;
+  transition: opacity 500ms ease-in,background-color 500ms ease-in,box-shadow 500ms ease-in;
+  box-shadow: 0 0 15px 15px rgba(255,255,255,0.0);
+}
+
+#screen:hover {
+    box-shadow: 0 0 15px 15px rgba(255,255,255,0.1);
+    opacity:1;
+  
 }
 
 .popUpTrigger {
