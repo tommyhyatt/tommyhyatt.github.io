@@ -146,6 +146,7 @@ body {
 
 #audio {
   width:32px;
+  height:32px;
   overflow:hidden;
   position:fixed;
   top:5px;
