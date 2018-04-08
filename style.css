@@ -299,7 +299,7 @@ body {
   top: 64%;
 }
 
-#vinyl {
+#vinylTrigger {
   width: 19%;
   height: 12%;
   left: 17%;
@@ -362,7 +362,7 @@ body {
   top: 11%;
 }
 
-#physics {
+#physicsTrigger {
   width: 10%;
   height: 12.5%;
   left: 66%;
