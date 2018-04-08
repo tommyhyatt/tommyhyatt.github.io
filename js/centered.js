@@ -13,4 +13,4 @@ var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width,
 
 
 
-window.scrollTo((windowWidth - screenWidth)/2,0);
+window.scrollTo((windowWidth - screenWidth)/2,1000);
