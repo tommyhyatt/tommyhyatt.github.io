@@ -68,7 +68,7 @@ body {
   min-height:100vh;
   max-height:100vh;
   width: 80vw;
-  max-width:800px;
+  max-width:700px;
   min-width:350px;
   top: 50%;
   left: 50%;
@@ -111,6 +111,10 @@ h2 {
 iframe {
   
   padding: 20px 0px 20px 0px;
+  width:64vw;
+  max-width:560px;
+  height:36vw;
+  max-height:315px;
   
 }
 
