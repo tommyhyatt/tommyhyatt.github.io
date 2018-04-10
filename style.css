@@ -1,5 +1,5 @@
 html {
-  max-height: 100%;
+  max-height: 100vh;
  
 }
 
@@ -52,24 +52,7 @@ body {
   pointer-events: none;
 }
 
-.modal0 {
-  position:absolute;
-  width:100%;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  z-index: 20;
-  opacity: 1;
-  background:url(newDeskImageBlur.jpg);
-  background-size:cover;
-  -webkit-transition: opacity 250ms ease-in;
-  -moz-transition: opacity 250ms ease-in;
-  transition: opacity 250ms ease-in;
-  pointer-events: none;
-}
-
-.modalClose, .modalClose0 {
+.modalClose {
   position:absolute;
   top:0;
   right:0;
@@ -80,11 +63,7 @@ body {
   cursor: default;
 }
 
-.modalClose0 {
-  z-index:24;
-  
-}
-.modalOuter, .modalOuter0 {
+.modalOuter {
   position: fixed;
   min-height:100vh;
   max-height:100vh;
@@ -112,13 +91,32 @@ body {
   line-height:20px;
   font-size:16px;
   color:#333;
+  text-align:justify;
 }
 
 .modalInner a, .modalInner a:active, .modalInner a:visited, .modalInner a:hover {
   
-  color:#666;
+  color:#777;
   text-decoration:none;
-  border-bottom:2px solid #ccc;
+  border-bottom:px solid #ccc;
+  
+}
+
+h2 {
+  
+  padding-bottom:13px;
+  
+}
+
+iframe {
+  
+  padding: 20px 0px 20px 0px;
+  
+}
+
+.instagram-media {
+  
+  padding: 20px 0px 20px 0px;
   
 }
 
@@ -127,12 +125,8 @@ body {
   pointer-events: auto;
 }
 
-.modal0:target {
-  display:none;
-  pointer-events: auto;
-}
 
-.close, .close0 {
+.close {
   font-family:sans-serif;
   font-size:30px;
   background: #aaa;
