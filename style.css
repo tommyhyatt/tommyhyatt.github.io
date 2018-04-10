@@ -286,7 +286,7 @@ iframe {
   box-shadow: 0 0 15px 15px rgba(255,255,255,0.1);
 }
 
-#turntable {
+#turntableTrigger {
   width: 12%;
   height: 5%;
   left: 21%;
@@ -300,56 +300,56 @@ iframe {
   top: 86%;
 }
 
-#guitar {
+#guitarTrigger {
   width: 9%;
   height: 40%;
   left: 25%;
   top: 12%;
 }
 
-#lynx {
+#lynxTrigger {
   width: 2.3%;
   height: 5.6%;
   left: 35.5%;
   top: 15%;
 }
 
-#cat {
+#catTrigger {
   width: 2.3%;
   height: 6.7%;
   left: 35.5%;
   top: 25%;
 }
 
-#lizzy {
+#lizzyTrigger {
   width: 2.7%;
   height: 6%;
   left: 35.5%;
   top: 48.8%;
 }
 
-#birds {
+#birdsTrigger {
   width: 3%;
   height: 5%;
   left: 49%;
   top: 34%;
 }
 
-#tickets {
+#ticketsTrigger {
   width: 3.4%;
   height: 8%;
   left: 63%;
   top: 46%;
 }
 
-#oxford {
+#oxfordTrigger {
   width: 2.5%;
   height: 6.2%;
   left: 63.5%;
   top: 32.5%;
 }
 
-#cuddlyLynx {
+#cuddlyLynxTrigger {
   width: 3%;
   height: 8%;
   left: 78%;
@@ -363,14 +363,14 @@ iframe {
   top: 15%;
 }
 
-#pentax {
+#pentaxTrigger {
   width: 5%;
   height: 7%;
   left: 78.5%;
   top: 38%;
 }
 
-#autocord {
+#autocordTrigger {
   width: 5%;
   height: 7%;
   left: 65.5%;
@@ -384,14 +384,14 @@ iframe {
   top: 61.5%;
 }
 
-#scanner {
+#scannerTrigger {
   width: 8%;
   height: 8%;
   left: 67%;
   top: 80%;
 }
 
-#amp {
+#ampTrigger {
   width: 8%;
   height: 8%;
   left: 80%;
