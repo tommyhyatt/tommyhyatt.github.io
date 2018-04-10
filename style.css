@@ -83,7 +83,7 @@ body {
 .modalInner {
   background: url(images/logo.png) center top no-repeat;
   background-size: 80px;
-  margin-top:5%;
+  margin-top:110px;
   padding: 15% 10% 10% 10%;
   border: 0px black;
   z-index:16;
