@@ -2,313 +2,148 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="style.css" type="text/css" media="all">
-  <meta charset='utf-8'>
-  <meta property="og:description" content="A one-page website about my handmade desk, and me.">
-  <meta property="og:title" content="tommyhyatt.github.io" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>tommyhyatt.github.io</title>
- <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
+    <title>Tropical Medicine Time Machine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 <body>
-  
-  
-  <div id="deskImageDiv">
-    <img id="deskImage" src="images/newDeskImage.jpg" alt="A photograph of my handmade desk, in my room in Brixton">
-    <a href="https://www.freecodecamp.org/tommyhyatt" target="_blank"><div class="links" id="codeCampLink"></div></a>
-    <a href="https://www.codewars.com/kata/5ac62974348c2203a90000c0" target="_blank"><div class="links" id="codewarsLink"></div></a>
-    <div class="links" id="audio" onclick="toggle()">
-      <audio id="ambience" loop> 
-        <source src="sounds/ambience5am.mp3">
-      </audio>
-    </div>
-    
-    <a href="#coding">
-      <div id="screensaverContainer"><div id="screensaver"></div></div>
-      <div id="screen"></div>
-    </a>
-    
-    <a href="#music">
-      <div  id="pianoOverlay"></div>
-    </a>
-    
-    <a href="#vinyl">
-      <div class="popUpTrigger" id="turntableTrigger">
-      </div>
-    </a>
-    
-    <a href="#vinyl">
-      <div class="popUpTrigger" id="vinylTrigger">
-      </div>
-    </a>
-    
-    <a href="#music">
-      <div class="popUpTrigger" id="guitarTrigger">
-      </div>
-    </a>
-    
-<!--
-    <a href="#lifescape">
-      <div class="popUpTrigger" id="lynxTrigger">
-      </div>
-    </a>
-    
-    <a href="#cat">
-      <div class="popUpTrigger" id="catTrigger">
-      </div>
-    </a>
-    
-    <a href="#lizzy">
-      <div class="popUpTrigger" id="lizzyTrigger">
-      </div>
-    </a>
-    
-    <a href="#birds">
-      <div class="popUpTrigger" id="birdsTrigger">
-      </div>
-    </a>
--->
-    
-    <a href="#physics">
-      <div class="popUpTrigger" id="oxfordTrigger">
-      </div>
-    </a>
-  
-  <!--
-
-    <a href="#tickets">
-      <div class="popUpTrigger" id="ticketsTrigger">
-      </div>
-    </a>
-    
-
-    <a href="#lifescape">
-      <div class="popUpTrigger" id="cuddlyLynxTrigger">
-      </div>
-    </a>
--->
-    
-    <a href="#physics">
-      <div class="popUpTrigger" id="physicsTrigger">
-      </div>
-    </a>
-    
-    <a href="#photography">
-      <div class="popUpTrigger" id="pentaxTrigger">
-      </div>
-    </a>
-    
-    <a href="#photography">
-      <div class="popUpTrigger" id="autocordTrigger">
-      </div>
-    </a>
-    
-<!--
-    <a href="#cactus">
-      <div class="popUpTrigger" id="cactusTrigger">
-      </div>
-    </a>
--->
-    
-    <a href="#photography">
-      <div class="popUpTrigger" id="scannerTrigger">
-      </div>
-    </a>
-    
-    <a href="#music">
-      <div class="popUpTrigger" id="ampTrigger">
-      </div>
-    </a>
-   
-    <div id="coding" class="modal">
-      <a href="#close">
-        <div class="modalClose"></div>
-      </a>
-      <div class="modalOuter">
-        <a href="#close" title="Close" class="close">+</a>
-        <div class="modalInner">
-          <h2>Coding</h2>
-          
-          <p>All my coding and design to date has been self-taught. While at school I got the basics of HTML and web design down, making a few mock-ups of sites locally on my computer. I began to realise that there had to be a better way than hard-coding the structure and styles of each and every page of a website, but it wasn't until university that I learned about CSS, getting to grips with child themes in <i>Wordpress</i> on Ian Stewart's <i>Thematic</i> framework.</p>
-          
-          <a href="http://tomhyatt.co.uk" target="blank_"><div class='modalImage' id='codingImage'></div></a>
-          
-          <p>My music website, <a href="http://tomhyatt.co.uk" target="blank_">http://tomhyatt.co.uk</a>, has been through about eight iterations in as many years, acting as a sandbox for me to improve my skills. The current version had me writing and enqueuing jQuery scripts to, amongst other things, create a parallax effect on a photo, carefully photoshopped to create a 3D effect. The photo is the front cover of my recent live album, <i>Live at Spiritual</i>, released in 2017. Soon I'll be remaking the site again, integrating my photography in advance of an upcoming music/photography project, titled <i>Lost in a Dream</i>.</p>
-          
-          <p>Alongside my own I've created quite a few websites for my artistic friends and family, plus a small restaurant, on commission. Most recently I've built a website for an arts' festival that my dad, John Hyatt, is curating in Liverpool in May, called <i><a href="http://timetunnel.johnhyatt.co.uk" target="blank_">Time Tunnel</a></i>. All have been on the <i>Wordpress</i> framework. Whilst it's great to feel confident enough to start more deeply editing PHP code, I'm interested to break free of <i>Wordpress</i> and experience alternate CMS, especially as I've increasingly felt like I'm over-deforming its blog-based structure in order to do what I want.</p>
-          
-          <p>I've really enjoyed creating the website you're currently experiencing. With mobile browsing reportedly overtaking desktop in 2017, I've been really pushing myself to create responsive web designs from the start that consider portrait as well as landscape views. The humble image map that I first learned back when I was hard-coding HTML cannot be made responsive (the &lt;area&gt; tag does not accept percentage values), and so I'm pleased with this pure CSS alternative, along with a few javascript embellishments. I'd love to make a browser-based point and click adventure (like <i>Myst</i> or <i>Sam and Max</i>) using this code!</p>
-          <br>
-          <a href="#close" title="Close"><h6>[back to the room]</h6></a>
+    <div id="wrapper">
+        <div id="green"></div>
+        <div id="clock"></div>
+        <div id="screen">
+            <div id="banding"></div>
         </div>
-      </div>
+        <div id="static"></div>
+        <div id="playerContainer"><div id="player"></div></div>
+        <div id="controls"><div id="playPause">&#9199;</div><div id="reset">&#9167;</div></div>
+        <div id="contents">
+            <div id="logo"></div>
+            <div class="box" id="timePeriodBox">
+                <div class="boxinner">
+                    <div class="boxText">Select a time period:</div>
+                    <div class="boxContents">
+                        <div id="timeLeftArrow" class="arrow" onclick="selectTimes(-1)">&#9654;</div>
+                        <div id="timePeriod">
+                            <div class="times" id="earlyYears">
+                                "Early Years"<br>
+                                <big>1898 ~ 1945</big>
+                            </div>
+                            <div class="times" id="postWW2">
+                                "Post WW2"<br>
+                                <big>1945 ~ 2023</big>
+                            </div>
+                            <div class="times" id="future">
+                                "Future"<br>
+                                <big>2023 ~ 2050</big>
+                            </div>
+                        </div>
+                        <div class="arrow" id="timeRightArrow" onclick="selectTimes(1)">&#9654;</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="artefactsBox">
+                <div class="boxinner">
+                    <div class="boxText">Select an artefact:</div>
+                    <div class="boxContents">
+                        <div id="artefactLeftArrow" class="arrow" onclick="selectArtefacts(-1)">&#9654;</div>
+                        <div class="boxContents" id="artefact">
 
-    </div>
-    
-    <div id="music" class="modal">
-      <a href="#close">
-        <div class="modalClose"></div>
-      </a>
-      <div class="modalOuter">
-        <a href="#close" title="Close" class="close">+</a>
-        <div class="modalInner">
-          
-          <h2>Music</h2>
+                            <div class="artefacts" id="1A">
+                                <model-viewer src="models/1A.glb" alt="" auto-rotate camera-controls>
+</model-viewer>
+<! -- modelviewer.dev -->
+                            </div>
+                            <div class="artefacts" id="1B">
+                                1B
+                            </div>
+                            <div class="artefacts" id="1C">
+                                1C
+                            </div>
+                            <div class="artefacts" id="1D">
+                                1D
+                            </div>
+                            <div class="artefacts" id="1E">
+                                1E
+                            </div>
 
-          <p>I have been writing and performing my own songs now for over a decade, and since finishing my degree the pursuit of being a professional musician has been the main focus of my time.</p>
-          
-          <div class="iframeDiv">
-          <iframe class="youtubeIframe" src="https://www.youtube.com/embed/videoseries?list=PLIRqofwcSHv72xItDPOiiAdy6Lr1Pg1bK&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+                            <div class="artefacts" id="2A">
+                                2A
+                            </div>
+                            <div class="artefacts" id="2B">
+                                2B
+                            </div>
+                            <div class="artefacts" id="2C">
+                                2C
+                            </div>
+                            <div class="artefacts" id="2D">
+                                2D
+                            </div>
+                            <div class="artefacts" id="2E">
+                                2E
+                            </div>
 
-          <p>My latest self-release is a live album from 2017, <i><a href="https://tomhyatt.bandcamp.com/album/live-at-spiritual" target="blank_">Live at Spiritual</a></i>, recorded in front of a small audience in the eponymous bar in Camden. I designed the artwork and the latest iteration of my website, <a href="http://tomhyatt.co.uk" target="_blank">http://tomhyatt.co.uk</a>, as well as mixing the audio, editing the live videos, and doing a bit of PR.</p>
+                            <div class="artefacts" id="3A">
+                                3A
+                            </div>
+                            <div class="artefacts" id="3B">
+                                3B
+                            </div>
+                            <div class="artefacts" id="3C">
+                                3C
+                            </div>
+                            <div class="artefacts" id="3D">
+                                3D
+                            </div>
+                            <div class="artefacts" id="3E">
+                                3E
+                            </div>
 
-          <p>I built the desk for my room in Brixton first and foremost to ergonomically house my digital piano, which runs through my computer to the monitor speakers. I write and arrange both on guitar and piano, finding that often switching between the two can lead to different breakthroughs and directions in a single song. For me it has always been incredibly important to have a tidy workspace where instruments and microphones can be accessed with minimal difficulty, so as to not get in the way of creativity.</p>
 
-          <p>The guitar on the wall is my Fender Jazzmaster electric guitar that I bought from a man in Southport at the age of 17, when I was doing my best Elvis Costello impression fronting my high school band. Recently I’ve taken it apart, changed the pick ups and bridge, and it sounds better than ever! Time for a new band, perhaps... Not pictured is my trusty Martin acoustic guitar, which since it was gifted to me has seen countless miles and performances over the years, and can be seen/heard on <i>Live at Spiritual</i>.</p>
-          <br>
-          <a href="#close" title="Close"><h6>[back to the room]</h6></a>
+                        </div>
+                        <div class="arrow" id="artefactsRightArrow" onclick="selectArtefacts(1)">&#9654;</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" id="start" onclick="videoPlay()">
+                click to start
+            </div>
+            
+            <div class="box" id="infoBox">
+                <div class="boxinner">
+                    <p>In 2023, The Liverpool School of Tropical Medicine celebrated its 125th anniversary by commissioning two sci-artists, Tom Hyatt and Natasha Niethamer, to create a unique piece of public engagement.</p>
+                    <p>The Tropical Medicine Time Machines are three boxes, each with five 3D-printed artefacts, which trigger videos spanning the length and breadth of the institutions history and scientific achievements.</p>
+                    <p>The Time Machines are hosted by AI-wen Evans: a re-animation of LSTM's first female lecturer Dr Alwen Myfanwy Evans. Travelling across space and time, each artefact features a unique interview with one of LSTM's researchers.</p>
+                    <p>As well as a pop-up, interactive museum, the Time Machines are also a mini school curriculum. Accompanying workbooks (click here to download) can be adapted by teachers to suit a variety of ages.</p>
+                    
+                </div>
+            </div>
+
+            <div id="footer">
+                
+                    <div id="info" onclick="infoOpen()">
+                    </div>
+                <div id="close" onclick="infoClose()">
+                    </div>
+                
+                <a target="_blank" href="https://www.lstmed.ac.uk/news-events/news/the-national-lottery-heritage-fund-supported-project-“lstm-past-present-and-future">
+                    <div id="LSTMlogo">
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.heritagefund.org.uk/projects/lstm-past-present-and-future">
+                    <div id="heritage">
+                    </div>
+                </a>
+
+            </div>
         </div>
-      </div>
-
     </div>
-    
-    <div id="vinyl" class="modal">
-      <a href="#close">
-        <div class="modalClose"></div>
-      </a>
-      <div class="modalOuter">
-        <a href="#close" title="Close" class="close">+</a>
-        <div class="modalInner">
-          <h2>Vinyl</h2>
-
-          <p>When I moved to London, I knew that with my first paycheck I was going to buy myself a turntable, some speakers, and a copy of <i>Still Bill</i> by Bill Withers. I had become a fan of the record a year before, when a few stronger-than-anticipated beers while visiting a friend in Boston had softened my mind enough for Bill's powerfully humble soul to make a fairly permanent impression.</p>
-          
-          <div class='modalImage' id='vinylImage'></div>
-
-          <p>When the big day arrived I walked down to <i>Haggle Vinyl</i> on Essex Road in Islington, now sadly closed down. There aren't many record shops like it. A musty treasure trove of old cardboard and crackling wax, it was run by a famously abrasive character with an attitude straight out of (or into?) Nick Hornby’s <i>High Fidelity</i>.</p>
-
-          <p>Unbelievably, with a level of luck not fully appreciated at the time, I quickly found a copy of <i>Still Bill</i> in perfect condition, for a tenner! I took it to the counter. The owner, who had only just finished berating another now-ex-customer, thankfully warmed to me due to my apparent ‘excellent music taste’. I explained that I’d recently moved and just bought a turntable, and Bill Withers was the one record I had set out to get. He gestured down to the right of the counter, where he had a stack of unsorted vinyl that he didn’t have space for in the racks. He said I could have any for £2 each, so I hungrily set to work flipping through. Before long, Bill had some company: Stevie Wonder, James Taylor, Joni Mitchell, The Band, and a decent Dylan best-of, all for twenty quid. That night, I went to sleep to Joni singing about clouds.</p>
-
-          <p>I don’t consider myself an analogue audiophile evangelist. The main differences between digital and analogue for me are the behaviour of the different recording processes, and so once the sound is created there’s little difference in fidelity with the right gear. That said, I love to buy my favourite music on vinyl. It makes listening to music an event, punctuated only by the flipping of the record. Listening to an album is a ritual slightly lost in the age of streaming and shuffling playlists, and we need to keep hold of rituals.</p>
-          <br>
-          <a href="#close" title="Close"><h6>[back to the room]</h6></a>
-        </div>
-      </div>
-
-    </div>
-    
-    <div id="photography" class="modal">
-      <a href="#close">
-        <div class="modalClose"></div>
-      </a>
-      <div class="modalOuter">
-        <a href="#close" title="Close" class="close">+</a>
-        <div class="modalInner">
-          <h2>Photography</h2>
-          <p>A few years ago, I decided to download facebook pictures from my time at university for sentimental safekeeping. Dismayed at the quality of these compressed, 72dpi records of my formative years, I decided to pursue film photography to (a) create high quality images and (b) make every image count. Working within constraits is good, and with sometimes only 10 shots on a roll you have to consider what you capture a lot more carefully than with digital.</p>
-
-          <p>As a result I've learned a great deal about photography and cameras, and recently have started to tentatively consider myself a 'photographer'. I develop films myself at home, and when they're dry I digitise them using a special flatbed scanner. Recently I've become a member of <a href="http://photofusion.com" target="blank_">Photofusion</a> in Brixton, and had a photograph exhibited in their annual <i>Salon</i> show. That image I hand-printed in the darkroom there, which is a truly magical and satisfying process to see.</p>
-          
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Bdpx5AbgDFP/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/Bdpx5AbgDFP/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Tom Hyatt (@tommyhyatt)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-01-07T15:11:29+00:00">Jan 7, 2018 at 7:11am PST</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
-        
-
-          <p>I was drawn to medium format cameras and film due to the higher resolution of the larger negatives and because I felt that 10-15 shots on a roll of film is in line with my ideas about making each shot count. First I bought a Minolta Autocord from 1951, a completely mechanical twin-lens reflex camera that captures 6x6 square negatives. At the time of its creation, its 1/500th of a second shutter speed was cutting edge. As a feat of engineering, creating that level of precision without electricity blows my mind!</p>
-
-          <p>Recently I've bought and been shooting with a Pentax 6x7 camera, due to its portrait capabilities. In the last week of June I am putting on a week-long exhibition of portrait photographs featuring my musician friends, titled <i>Lost in a Dream</i>. The prints won't be fixed properly, and as a result will fade to black during the exhibition as a commentary on the temporary nature of musicians and the music scenes they create, especially due to the rising cost of living in the capital. I'm also collaborating with a boutique publisher to create a limited edition photobook for the exhibition, and each night there will be musical performances by the photographs' subjects.</p>
-          <br>
-          <a href="#close" title="Close"><h6>[back to the room]</h6></a>
-        </div>
-      </div>
-
-    </div>
-    
-    <div id="physics" class="modal">
-      <a href="#close">
-        <div class="modalClose"></div>
-      </a>
-      <div class="modalOuter">
-        <a href="#close" title="Close" class="close">+</a>
-        <div class="modalInner">
-          <h2>Physics</h2>
-          
-          <p>From 2007-2011 I studied for a <a href="https://www.ox.ac.uk/admissions/undergraduate/courses-listing/physics-and-philosophy?wssl=1" target="blank_">Masters in Physics and Philosophy at Oxford University</a>. During my A levels I wasn't really sure what I wanted to study (I nearly applied for Fine Art), but the advertised challenge of this course coupled with the breadth of a joint-honours degree won out. (That, and the fact that my sister Lizzy had gone to Oxford the year before me, and I had serious face to save...)</p>
-
-          <div class='modalImage' id='oxfordImage'></div>
-          
-          <p>After graduating I had a bit of physics burnout, and was set on pursuing the more artistic side of my life that I had otherwise held back in the many hours in the library. Not wanting to lose touch completely, I began tutoring in London and eventually wound up teaching part-time in a small one-on-one school, attracting students who wouldn't otherwise fit in a typical classroom environment.</p>
-
-          <p>Through teaching, my enjoyment and understanding of physics has increased both back to and beyond the level I had during my degree. I've come to see teaching as an excellent means to further one's own understanding of a subject, not just the students'.</p>
-
-          <p>On the shelf sits a Christmas present from mum and dad: the complete <a href="http://www.feynmanlectures.caltech.edu/"><i>Feynman Lectures in Physics</i></a>, in hard back. Richard Feynman is one of the most lateral thinking, talented physicists to have lived, helping to push forward our understanding of quantum mechanics in brilliantly idiosyncratic ways. The <i>Lectures</i> are transcriptions of a course he once delivered to undergraduates at Caltec back in the 60s, and going forward I plan to relearn the physics from my degree, with Feynman's help!</p>
-          <br>
-          <a href="#close" title="Close"><h6>[back to the room]</h6></a>
-        </div>
-      </div>
-
-    </div>
-<!--
-    
-    <div id="cat" class="modal">
-      <a href="#close">
-        <div class="modalClose"></div>
-      </a>
-      <div class="modalOuter">
-        <a href="#close" title="Close" class="close">+</a>
-        <div class="modalInner">
-          <p></p>
-        </div>
-      </div>
-
-    </div>
-    
-    <div id="lizzy" class="modal">
-      <a href="#close">
-        <div class="modalClose"></div>
-      </a>
-      <div class="modalOuter">
-        <a href="#close" title="Close" class="close">+</a>
-        <div class="modalInner">
-          <p></p>
-        </div>
-      </div>
-
-    </div>
-    
-    <div id="tickets" class="modal">
-      <a href="#close">
-        <div class="modalClose"></div>
-      </a>
-      <div class="modalOuter">
-        <a href="#close" title="Close" class="close">+</a>
-        <div class="modalInner">
-          <p></p>
-        </div>
-      </div>
-
-    </div>
-    
-    <div id="cactus" class="modal">
-      <a href="#close">
-        <div class="modalClose"></div>
-      </a>
-      <div class="modalOuter">
-        <a href="#close" title="Close" class="close">+</a>
-        <div class="modalInner">
-          <p></p>
-        </div>
-      </div>
-
-    </div>
--->
-    
-  </div>
-  
-  <script src="js/centered.js"></script><script src="js/audio.js"></script>
-  <script src="js/screensaver.js"></script>
-  
+    <script src="script.js"></script>
 </body>
 
 </html>
