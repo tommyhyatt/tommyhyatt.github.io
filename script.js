@@ -79,7 +79,6 @@ function artefact(n, m, l) {
                     'fs': 0,
                     'controls': 0,
                     'rel': 0,
-                    'muted': 1,
                 },
                 events: {
                     'onReady': onPlayerReady,
@@ -103,11 +102,9 @@ function artefact(n, m, l) {
                 }
             };
             
+            player.mute();
             
-            
-            if (player.isMuted) {
-                player.unMute()
-            }
+          
             
 
 
@@ -123,6 +120,10 @@ function artefact(n, m, l) {
         }
 
         function onPlayerStateChange() {
+            
+              if (player.isMuted) {
+                player.unMute()
+            }
 
             player.setOption('captions', 'fontSize', 1);
             
