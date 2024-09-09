@@ -19,8 +19,13 @@
             <div id="banding"></div>
         </div>
         <div id="static"></div>
-        <div id="playerContainer"><div id="player"></div></div>
-        <div id="controls"><div id="playPause">&#9199;</div><div id="reset">&#9167;</div></div>
+        <div id="playerContainer">
+            <div id="player"></div>
+        </div>
+        <div id="controls">
+            <div id="playPause">&#9199;</div>
+            <div id="reset">&#9167;</div>
+        </div>
         <div id="contents">
             <div id="logo"></div>
             <div class="box" id="timePeriodBox">
@@ -54,8 +59,12 @@
                         <div class="boxContents" id="artefact">
 
                             <div class="artefacts" id="1A">
-                                <model-viewer src="models/1A.glb" alt="" auto-rotate touch-action="pan-y" exposure="0.5" environment-image="legacy" disable-zoom>
-</model-viewer>
+                                <model-viewer src="models/1A.glb" alt="" auto-rotate touch-action="pan-y" exposure="0.5" environment-image="legacy" disable-zoom
+                                camera-orbit="94.15deg 71.86deg 291.8m" 
+                                field-of-view="30deg"
+                                camera-controls
+                                poster="models/1A.png">
+                                </model-viewer>
                             </div>
                             <div class="artefacts" id="1B">
                                 1B
@@ -112,24 +121,24 @@
             <div class="box" id="start" onclick="videoPlay()">
                 click to start
             </div>
-            
+
             <div class="box" id="infoBox">
                 <div class="boxinner">
                     <p>In 2023, The Liverpool School of Tropical Medicine celebrated its 125th anniversary by commissioning two sci-artists, Tom Hyatt and Natasha Niethamer, to create a unique piece of public engagement.</p>
                     <p>The Tropical Medicine Time Machines are three boxes, each with five 3D-printed artefacts, which trigger videos spanning the length and breadth of the institutions history and scientific achievements.</p>
                     <p>The Time Machines are hosted by AI-wen Evans: a re-animation of LSTM's first female lecturer Dr Alwen Myfanwy Evans. Travelling across space and time, each artefact features a unique interview with one of LSTM's researchers.</p>
                     <p>As well as a pop-up, interactive museum, the Time Machines are also a mini school curriculum. Accompanying workbooks (click here to download) can be adapted by teachers to suit a variety of ages.</p>
-                    
+
                 </div>
             </div>
 
             <div id="footer">
-                
-                    <div id="info" onclick="infoOpen()">
-                    </div>
+
+                <div id="info" onclick="infoOpen()">
+                </div>
                 <div id="close" onclick="infoClose()">
-                    </div>
-                
+                </div>
+
                 <a target="_blank" href="https://www.lstmed.ac.uk/news-events/news/the-national-lottery-heritage-fund-supported-project-“lstm-past-present-and-future">
                     <div id="LSTMlogo">
                     </div>
