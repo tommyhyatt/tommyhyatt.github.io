@@ -207,9 +207,10 @@ p {
 }
 
 model-viewer {
+    z-index:-1;
     display:flex;
-  width: 100%;
-  height: 100%;
+  width: 20vh;
+  height: 17vh;
 }
 
 .artefactImg {
