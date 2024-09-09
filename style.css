@@ -204,13 +204,14 @@ p {
 
 #artefact {
     width:80%;
+    height:100%;
 }
 
 model-viewer {
     z-index:-1;
     display:flex;
-  width: 20vh;
-  height: 17vh;
+  width: 19rem;
+  height: 16rem;
 }
 
 .artefactImg {
