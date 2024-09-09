@@ -295,7 +295,7 @@ model-viewer {
 
 #player {
     opacity: 0;
-    pointer-events: none;
+    // pointer-events: none;
     height: 100%;
     width: 100%;
     z-index: 3;
