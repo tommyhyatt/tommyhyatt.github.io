@@ -78,7 +78,8 @@ function artefact(n, m, l) {
                     'autohide': 1,
                     'fs': 0,
                     'controls': 0,
-                    'rel': 0
+                    'rel': 0,
+                    'muted': 1,
                 },
                 events: {
                     'onReady': onPlayerReady,
@@ -101,6 +102,8 @@ function artefact(n, m, l) {
                     player.playVideo();
                 }
             };
+            
+            
             
             if (player.isMuted) {
                 player.unMute()
