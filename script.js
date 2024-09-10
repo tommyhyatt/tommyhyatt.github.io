@@ -127,6 +127,12 @@ function artefact(n, m, l) {
 
             player.setOption('captions', 'fontSize', 1);
             
+            if (player.getPlayerState() == 1) {
+                
+                controls.style.display = "flex";
+                
+            }
+            
             if (player.getPlayerState() == 0) {
                 
                 var playerCSS = document.getElementById("player");
