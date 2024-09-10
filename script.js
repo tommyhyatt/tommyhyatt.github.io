@@ -65,7 +65,6 @@ function artefact(n, m, l) {
         var controls = document.getElementById("controls");
 
         playerCSS.style.display = "flex";
-        controls.style.display = "flex";
 
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
@@ -93,14 +92,14 @@ function artefact(n, m, l) {
 
         function onPlayerReady() {
 
-            document.getElementById('playPause').onclick = function () {
-
-                if (player.getPlayerState() == 1) {
-                    player.pauseVideo();
-                } else {
-                    player.playVideo();
-                }
-            };
+//            document.getElementById('playPause').onclick = function () {
+//
+//                if (player.getPlayerState() == 1) {
+//                    player.pauseVideo();
+//                } else {
+//                    player.playVideo();
+//                }
+//            };
             
               if (player.isMuted) {
                 player.unMute()
@@ -110,10 +109,11 @@ function artefact(n, m, l) {
             
 
 
-            document.getElementById('reset').onclick = function () {
+            document.getElementById('controls').onclick = function () {
                 var playerCSS = document.getElementById("player");
                 playerCSS.style.display = "none";
                 controls.style.display = "none";
+                controls.style.opacity = "100%";
 
                 
                 var node = document.getElementById('playerContainer');
@@ -130,6 +130,8 @@ function artefact(n, m, l) {
             if (player.getPlayerState() == 1) {
                 
                 controls.style.display = "flex";
+                setTimeout(() => { controls.style.opacity = "0"; }, 1);
+                
                 
             }
             
@@ -138,6 +140,7 @@ function artefact(n, m, l) {
                 var playerCSS = document.getElementById("player");
                 playerCSS.style.display = "none";
                 controls.style.display = "none";
+                controls.style.opacity = "100%";
 
                 
                 var node = document.getElementById('playerContainer');

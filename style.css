@@ -317,10 +317,14 @@ model-viewer {
     z-index: 4;
     width:100%;
     height:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
-    background:rgba(255, 0, 0, 0.5);
+    background:rgba(0, 0, 0, 0.1);
+    transition: all 3s;
 }
 
 #playPause {
@@ -340,18 +344,12 @@ model-viewer {
 
 #reset {
     z-index: 4;
-    background: url('images/close.png') center no-repeat;
-    background-size: contain;
-    mix-blend-mode: soft-light;
-    height:100%;
-    width:100%;
+    font-size:2rem;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
     cursor: pointer;
-    text-align: center;
     //border:1px solid green;
-    border-radius: 50%;
 }
 
 #default-progress-bar {
