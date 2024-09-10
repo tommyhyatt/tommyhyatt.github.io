@@ -301,7 +301,7 @@ model-viewer {
 
 #player {
     display:none;
-    pointer-events: none;
+    
     height: 100%;
     width: 100%;
     z-index: 3;
