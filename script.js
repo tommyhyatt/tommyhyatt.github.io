@@ -64,7 +64,7 @@ function artefact(n, m, l) {
 
         var controls = document.getElementById("controls");
 
-        playerCSS.style.opacity = 1;
+        playerCSS.style.display = "flex";
         controls.style.display = "flex";
 
         function onYouTubeIframeAPIReady() {
@@ -102,7 +102,9 @@ function artefact(n, m, l) {
                 }
             };
             
-            player.mute();
+              if (player.isMuted) {
+                player.unMute()
+            }
             
           
             
@@ -110,7 +112,7 @@ function artefact(n, m, l) {
 
             document.getElementById('reset').onclick = function () {
                 var playerCSS = document.getElementById("player");
-                playerCSS.style.opacity = 0;
+                playerCSS.style.display = "none";
                 controls.style.display = "none";
 
                 
@@ -121,16 +123,14 @@ function artefact(n, m, l) {
 
         function onPlayerStateChange() {
             
-              if (player.isMuted) {
-                player.unMute()
-            }
+            
 
             player.setOption('captions', 'fontSize', 1);
             
             if (player.getPlayerState() == 0) {
                 
                 var playerCSS = document.getElementById("player");
-                playerCSS.style.opacity = 0;
+                playerCSS.style.display = "none";
                 controls.style.display = "none";
 
                 

@@ -294,7 +294,7 @@ model-viewer {
 }
 
 #player {
-    opacity: 0;
+    display:none;
     // pointer-events: none;
     height: 100%;
     width: 100%;
@@ -302,6 +302,7 @@ model-viewer {
     position: absolute;
     top: 0;
     left: 0;
+    
 }
 
 #controls {
@@ -330,9 +331,10 @@ model-viewer {
 }
 
 #reset {
+    z-index: 4;
     background: url('images/close.png') center no-repeat;
     background-size: contain;
-    mix-blend-mode: screen;
+    mix-blend-mode: soft-light;
     height:100%;
     width:100%;
     -webkit-user-select: none;
