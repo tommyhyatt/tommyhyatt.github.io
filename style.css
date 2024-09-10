@@ -176,8 +176,8 @@ p {
 .arrow {
     background: url('images/right.png') center no-repeat;
     background-size:contain;
-    height:1.5rem;
-    width:1.5rem;
+    height:1.75rem;
+    width:1.75rem;
     z-index:2;
     //border:1px solid red;
     -webkit-user-select: none;
