@@ -347,7 +347,7 @@ model-viewer {
 }
 
 .progress-bar {
-    display:none;
+    display:none!important;
 }
 
 @keyframes banding {
