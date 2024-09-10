@@ -346,7 +346,7 @@ model-viewer {
     border-radius: 50%;
 }
 
-.slot-progress-bar {
+.slot.progress-bar {
     display:none!important;
 }
 
