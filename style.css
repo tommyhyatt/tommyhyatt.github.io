@@ -346,8 +346,8 @@ model-viewer {
     border-radius: 50%;
 }
 
-.slot {
-    bottom:0;
+#default-progress-bar {
+    opacity:0;
 }
 
 @keyframes banding {
