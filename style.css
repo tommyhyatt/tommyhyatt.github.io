@@ -174,9 +174,11 @@ p {
 }
 
 .arrow {
-    background: url('images/right.png') center no-repeat contain;
+    background: url('images/right.png') center no-repeat;
+    background-size:contain;
+    height:1.5rem;
+    width:1.5rem;
     z-index:2;
-    font-size: 2rem;
     //border:1px solid red;
     -webkit-user-select: none;
     -ms-user-select: none;
