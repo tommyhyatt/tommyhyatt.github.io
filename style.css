@@ -1,7 +1,7 @@
 html {
     margin: 0;
     padding: 0;
-    font-size: clamp(10px, 1.6vh, 16px);
+    font-size: clamp(10px, 1.6vh, 20px);
 }
 
 body {
@@ -103,7 +103,7 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    animation: wiggle1 0.2s linear infinite;
+    animation: wiggle 0.2s linear infinite;
     filter: blur(0.025rem);
 }
 
@@ -129,7 +129,7 @@ p {
 #artefactsBox {
     top: 39%;
     height: 38%;
-    transition: 1s;
+    
 }
 
 #infoBox {
@@ -184,6 +184,7 @@ p {
     -ms-user-select: none;
     user-select: none;
     cursor: pointer;
+    opacity:0.5;
 }
 
 #timeLeftArrow,
@@ -365,7 +366,7 @@ model-viewer {
     }
 }
 
-@keyframes wiggle1 {
+@keyframes wiggle {
     0% {
         transform: translateX(0) skewX(0deg);
     }
@@ -384,51 +385,5 @@ model-viewer {
 
     100% {
         transform: translateX(0) skewX(0deg);
-    }
-}
-
-@keyframes static1 {
-    0% {
-        background-position: 0% 0%;
-    }
-
-    10% {
-        background-position: 90% 0%;
-    }
-
-    20% {
-        background-position: 10% 0%;
-    }
-
-    30% {
-        background-position: 80% 0%;
-    }
-
-    40% {
-        background-position: 20% 0%;
-    }
-
-    50% {
-        background-position: 70% 0%;
-    }
-
-    60% {
-        background-position: 30% 0%;
-    }
-
-    70% {
-        background-position: 60% 0%;
-    }
-
-    80% {
-        background-position: 40% 0%;
-    }
-
-    90% {
-        background-position: 50% 0%;
-    }
-
-    100% {
-        background-position: 10% 0%;
     }
 }
