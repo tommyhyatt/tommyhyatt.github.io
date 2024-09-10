@@ -346,7 +346,7 @@ model-viewer {
     border-radius: 50%;
 }
 
-.progress-bar {
+#default-progress-bar {
     display:none!important;
 }
 
