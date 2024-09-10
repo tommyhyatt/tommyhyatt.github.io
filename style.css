@@ -210,8 +210,10 @@ p {
 model-viewer {
     z-index: 1;
     display: flex;
-    width: 19rem;
-    height: 16rem;
+    width: 21rem;
+    height: 17.2rem;
+    border-radius:1.5rem;
+    margin-top:0.2rem;
 }
 
 .artefactImg {
