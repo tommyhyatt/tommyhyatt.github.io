@@ -105,6 +105,8 @@ function artefact(n, m, l) {
                 player.unMute()
             }
             
+            player.playVideo();
+            
           
             
 

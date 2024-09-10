@@ -324,7 +324,7 @@ model-viewer {
     top: 0;
     left: 0;
     background:rgba(0, 0, 0, 0.1);
-    transition: all 3s;
+    transition: opacity 4s;
 }
 
 #playPause {
