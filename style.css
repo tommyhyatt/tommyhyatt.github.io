@@ -19,6 +19,9 @@ body {
     background: url(images/background1.jpg) center no-repeat;
     background-color: #c3bdb1;
     background-size: 146rem;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 a {
@@ -138,6 +141,9 @@ p, center {
     top: 19%;
     height: 71%;
     display: none;
+    -webkit-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
 }
 
 .box {
