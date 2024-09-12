@@ -16,12 +16,13 @@ body {
     font-style: normal;
     font-size: 1rem;
     color: white;
-    background: url(images/background1.jpg) center no-repeat;
-    background-color: #c3bdb1;
+    background: url(images/bg1.jpg) center no-repeat;
+    background-color: #eeeeee;
     background-size: 146rem;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    transition: background-image 0.5s;
 }
 
 a {
@@ -38,8 +39,8 @@ p, center {
 
 
 #wrapper {
-    height: 45rem;
-    width: calc(45rem/1.6);
+    height: 42.5rem;
+    width: calc(42.5rem/1.6);
     position: relative;
     background: white;
     // border:1px solid red;
@@ -226,6 +227,7 @@ model-viewer {
     height: 17.3rem;
     border-radius:1.5rem;
     margin-top:0.3rem;
+    
 }
 
 .artefactImg {
