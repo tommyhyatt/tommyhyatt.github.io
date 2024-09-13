@@ -14,5 +14,7 @@ function zoomIn() {
     setTimeout(() => {
                     screensaver.style.display = 'none';
                 }, 7000);
-    
+    setTimeout(() => {
+                    zoom.style.transition = 'unset';
+                }, 7000);
 }
