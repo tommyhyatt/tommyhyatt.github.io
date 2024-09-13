@@ -1,7 +1,8 @@
 html {
     margin: 0;
     padding: 0;
-    font-size: clamp(10px, 1.8vh, 25px);
+    font-size: clamp(0px, 1vh, 25px);
+    transition: font-size 5s;
 }
 
 body {
@@ -53,11 +54,23 @@ p {
     z-index: 0;
     height: 100%;
     width: 100%;
-    opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0.5;
+}
+
+#screensaver {
+    background: url("images/screensaver.png") center;
+    background-size: cover;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s;
 }
 
 #screen {

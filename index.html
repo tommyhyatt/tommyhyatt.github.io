@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <link rel="stylesheet" href="style.css">
     <link rel="preload"as="image"href="images/bg1.jpg">
     <link rel="preload"as="image"href="images/bg2.jpg">
@@ -13,12 +13,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://www.youtube.com/iframe_api"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="script2.js"></script>
 </head>
 
-<body>
+<body onload="zoomIn()">
     <div id="wrapper">
         <div id="green"></div>
         <div id="clock"></div>
+        <div id="screensaver"></div>
         <div id="screen">
             <div id="banding"></div>
         </div>
@@ -274,11 +276,10 @@
 
             <div class="box" id="infoBox">
                 <div class="boxinner">
-                    <p style="text-align:center;"><i>Created by Tom Hyatt and Natasha Niethamer</i></p>
-                    <p>In 2023, The Liverpool School of Tropical Medicine celebrated its 125th anniversary by commissioning two sci-artists, Tom Hyatt and Natasha Niethamer, to create a unique piece of public engagement.</p>
-                    <p>The Tropical Medicine Time Machines are three boxes, each with five 3D-printed artefacts, which trigger videos spanning the length and breadth of the institution's history and scientific achievements.</p>
-                    <p>The Time Machines are hosted by AI-wen Evans: a re-animation of LSTM's first female lecturer Dr Alwen Myfanwy Evans. Travelling across space and time, each artefact features a unique interview with one of LSTM's researchers.</p>
-                    <p>As well as a pop-up, interactive museum, the Time Machines are also a mini school curriculum. Accompanying workbooks (click here to download) can be adapted by teachers to suit a variety of ages.</p>
+                    <p>The <i>Tropical Medicine Time Machine</i> is a public engagement sci-artwork, designed and created by Tom Hyatt and Natasha Niethamer for the 125th anniversary of Liverpool School of Tropical Medicine (LSTM).</p>
+                    <p>It was made possible with funding from the National Lottery Heritage Fund, along with contributions from PH Holt, Eleanor Rathbone Trust, Duchy of Lancaster Benevolent Fund, and The Hemby Trust.</p>
+                    <p>Three unique <i>Time Machines</i>, each with five accompanying 3D artefacts, encompass the length and breadth of LSTM's research and legacy. <i>Ai-wen Evans</i> (a re-animation of LSTM's first female lecturer Dr Alwen Myfanwy Evans) takes the public on a journey through time and space, interviewing fifteen LSTM researchers along the way.</p>
+
 
                 </div>
             </div>
