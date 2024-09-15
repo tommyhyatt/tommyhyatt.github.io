@@ -62,10 +62,10 @@ p {
 }
 
 #screensaver {
-    display:none;
+    display: none;
     background: url("images/screensaver.png") center;
     background-size: cover;
-    background-color:#333;
+    background-color: #333;
     z-index: 5;
     height: 100%;
     width: 100%;
@@ -151,7 +151,7 @@ p {
 #artefactsBox {
     top: 39%;
     height: 38%;
-    
+
 }
 
 #infoBox {
@@ -200,16 +200,16 @@ p {
 
 .arrow {
     background: url('images/right.png') center no-repeat;
-    background-size:contain;
-    height:100%;
-    width:1.75rem;
-    z-index:2;
+    background-size: contain;
+    height: 100%;
+    width: 1.75rem;
+    z-index: 2;
     //border:1px solid red;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
     cursor: pointer;
-    opacity:0.5;
+    opacity: 0.5;
 }
 
 #timeLeftArrow,
@@ -241,9 +241,9 @@ model-viewer {
     display: flex;
     width: 21.3rem;
     height: 17.3rem;
-    border-radius:1.5rem;
-    margin-top:0.3rem;
-    
+    border-radius: 1.5rem;
+    margin-top: 0.3rem;
+
 }
 
 .artefactImg {
@@ -326,35 +326,35 @@ model-viewer {
 }
 
 #player {
-    display:none;
-    
+    display: none;
+
     height: 100%;
     width: 100%;
     z-index: 3;
     position: absolute;
     top: 0;
     left: 0;
-    
+
 }
 
 #controls {
-    display:none;
-    opacity:100%;
+    display: none;
+    opacity: 100%;
     z-index: 4;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 0;
     left: 0;
-    background:rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
     transition: opacity 4s;
 }
 
 #playPause {
-    display:none;
+    display: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -370,8 +370,8 @@ model-viewer {
 
 #reset {
     z-index: 4;
-    font-size:2rem;
-    font-weight:bolder;
+    font-size: 2rem;
+    font-weight: bolder;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -380,18 +380,18 @@ model-viewer {
 }
 
 #default-progress-bar {
-    opacity:0;
+    opacity: 0;
 }
 
 #button-load {
-   // border:1px red solid;
-    background:rgba(0,0,0,0.3);
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%) translateY(-50%);
-        padding:0.25rem;
-    border-radius:0.25rem;
+    // border:1px red solid;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0.3rem 0.45rem;
+    border-radius: 0.25rem;
 }
 
 .lazy-load-poster {
@@ -404,7 +404,7 @@ transform: translate(-50%) translateY(-50%);
     background-repeat: no-repeat;
     background-position: center;
 
-  }
+}
 
 .poster1A {
     background-image: url("models/1A.png");
