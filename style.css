@@ -391,6 +391,21 @@ left: 50%;
 transform: translate(-50%) translateY(-50%);;
 }
 
+.lazy-load-poster {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+#1Aposter {
+    background-image: url("models/1A.png");
+}
+
 @keyframes banding {
     0% {
         transform: translateY(400%);
