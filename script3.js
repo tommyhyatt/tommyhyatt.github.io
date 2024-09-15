@@ -1,5 +1,6 @@
 function loadModel(n) {
     
-    document.querySelector(".lazyLoad.model"+n).dismissPoster();
+    var x = ".lazyLoad.model" + n
+    document.querySelector(x).dismissPoster();
 
 }
