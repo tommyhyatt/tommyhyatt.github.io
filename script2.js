@@ -4,7 +4,7 @@ function zoomIn() {
     var screenSaver = document.getElementById('screensaver');
    // zoom.style.fontSize = 'clamp(0px, 1.8vh, 25px)';
     setTimeout(() => {
-                    zoom.style.fontSize = 'clamp(0px, 1.8vh, 25px)';
+                    zoom.style.fontSize = 'clamp(0px, 1.6vh, 25px)';
                 }, 1500);
     
     setTimeout(() => {
