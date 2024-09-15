@@ -384,11 +384,14 @@ model-viewer {
 }
 
 #button-load {
-    border:1px red solid;
+   // border:1px red solid;
+    background:rgba(0,0,0,0.3);
 position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-50%) translateY(-50%);;
+transform: translate(-50%) translateY(-50%);
+        padding:0.25rem;
+    border-radius:0.25rem;
 }
 
 .lazy-load-poster {
@@ -400,10 +403,67 @@ transform: translate(-50%) translateY(-50%);;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
   }
 
 .poster1A {
     background-image: url("models/1A.png");
+}
+
+.poster1B {
+    background-image: url("models/1B.png");
+}
+
+.poster1C {
+    background-image: url("models/1C.png");
+}
+
+.poster1D {
+    background-image: url("models/1D.png");
+}
+
+.poster1E {
+    background-image: url("models/1E.png");
+}
+
+.poster2A {
+    background-image: url("models/2A.png");
+}
+
+.poster2B {
+    background-image: url("models/2B.png");
+}
+
+.poster2C {
+    background-image: url("models/2C.png");
+}
+
+.poster2D {
+    background-image: url("models/2D.png");
+}
+
+.poster2E {
+    background-image: url("models/2E.png");
+}
+
+.poster3A {
+    background-image: url("models/3A.png");
+}
+
+.poster3B {
+    background-image: url("models/3B.png");
+}
+
+.poster3C {
+    background-image: url("models/3C.png");
+}
+
+.poster3D {
+    background-image: url("models/3D.png");
+}
+
+.poster3E {
+    background-image: url("models/3E.png");
 }
 
 @keyframes banding {
