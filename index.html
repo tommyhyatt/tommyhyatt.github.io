@@ -67,7 +67,7 @@
                             <div class="artefacts" id="1A">
                                 <model-viewer rotation-per-second="15deg"
                                 disable-pan  auto-rotate touch-action="pan-y" exposure="0.5" environment-image="legacy" 
-                                field-of-view="30deg"
+                                field-of-view="30deg" reveal="manual"
                                 camera-orbit="-150deg 60deg 291.8m"
                                               max-camera-orbit="auto auto 300m"
                                 src="models/1A.glb" 
@@ -75,7 +75,7 @@
                                 camera-controls
                                 poster="models/1A.png"
                                 ><div class="progress-bar hide" slot="progress-bar"></div>
-                                    
+                                    <div onclick="loadModel()" id="button-load"  slot="poster">View in 3D</div>
                                 </model-viewer>
                             </div>
                             <div class="artefacts" id="1B">

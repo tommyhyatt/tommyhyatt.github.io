@@ -380,7 +380,7 @@ model-viewer {
     opacity:0;
 }
 
-.loadButton {
+#button-load {
     border:1px red solid;
     display:flex;
     justify-content: center;
