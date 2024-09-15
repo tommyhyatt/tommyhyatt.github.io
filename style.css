@@ -384,9 +384,10 @@ model-viewer {
 
 #button-load {
     border:1px red solid;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%) translateY(-50%);;
 }
 
 @keyframes banding {

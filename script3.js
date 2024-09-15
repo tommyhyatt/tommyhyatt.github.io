@@ -1,6 +1,5 @@
 function loadModel() {
-
-    var model = customElements.get('model-viewer');
-    document.querySelector(model).dismissPoster();
+    
+    document.querySelector(".lazyLoad").dismissPoster();
 
 }
