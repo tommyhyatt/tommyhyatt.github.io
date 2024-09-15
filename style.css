@@ -62,6 +62,7 @@ p {
 }
 
 #screensaver {
+    display:none;
     background: url("images/screensaver.png") center;
     background-size: cover;
     background-color:#333;
