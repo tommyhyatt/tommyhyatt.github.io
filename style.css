@@ -2,7 +2,7 @@ html {
     margin: 0;
     padding: 0;
     font-size: clamp(0px, 1.6vh, 25px);
-    
+
 }
 
 body {
@@ -61,7 +61,7 @@ p {
 }
 
 #screensaver {
-   
+
     background: url("images/screensaver.png") center;
     background-size: cover;
     background-color: #333;
@@ -383,14 +383,13 @@ model-viewer {
 }
 
 #button-load {
-    // border:1px red solid;
+    
     background: rgba(0, 0, 0, 0.3);
     position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    transform: translate(-50%);
-    padding: 0.3rem 0.45rem;
-    border-radius: 0.25rem;
+    top: 7%;
+    left: 83%;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
