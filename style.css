@@ -402,7 +402,7 @@ transform: translate(-50%) translateY(-50%);;
     background-position: center;
   }
 
-#1Aposter {
+.1Aposter {
     background-image: url("models/1A.png");
 }
 
